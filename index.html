@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border:1px solid black;
+
+        }
+        L{
+
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+   <h2 style="background-color:powderblue;">  Design a contact us form with all fields as required. </h2>
+
+    
+    <h3>Contact us</h3>
+    <form id="form-id" class="form-class" method="post" action="contact-form-processing">
+            <label for="Name" class="label">Your name</label>
+            <div class="input-group">
+                <input type="text" id="Name" name="Name" class="form-control" >
+            </div>
+        <div class="form-group">
+            <label for="Email" class="label">Your email address</label>
+            <div class="input-group">
+                <input type="email" id="Email" name="Email" class="form-control" >
+            </div>
+        <div class="form-group">
+            <label for="Message" class="label">Your message</label>
+            <div class="input-group">
+                <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" ></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="button" class="form-submit">Send</button>
+        </div>
+    
+        <h2 style="background-color:powderblue;" > Use certain HTML elements to display the following in a HTML page. </h2>
+
+        <ul list-style-type: disc;>
+            <li >Programming Language
+              <ol type = "a" >   
+                <li type="circle" >         JavaScript  
+                       <ol type = "a" >
+                          <li >Angular</li>
+                          <li >React</li>
+                          <li >Vue.js</li>
+                        </ol>
+                    </ol>
+
+                    <ol >   <li type="circle" >        Python   </li>
+                        <ol type = "a" > 
+                            <li>Django Framework</li>
+                             <li>Flask Framework</li>
+                    </ol>
+                    
+                    </ol>
+                       
+                            </li> 
+
+                </li>
+                <li>
+                    Database 
+                    <ol type="circle">
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Cansandra</li>
+                </ol>
+                </li>
+        </ul>  
+
+
+        <h2 style="background-color:powderblue;" > Create an element that helps you to open the https://google.com in separate new tab. </h2>
+        
+            
+
+    <h1> <a href="https://www.google.com" target="_blank" >Google</a>   </h1>    
+
+
+
+   <p> <h2 style="background-color:powderblue;" > 1.In the form, add two radio buttons with grouping them for employee type(Salaried and own business) </h2>
+    <h2 style="background-color:powderblue;" >  2.Design form shown in the link </h2> </p> 
+    
+    
+    
+<fieldset>
+<h1 style="background-color:red;" >    YES! I want to subscribe to GUVI </h1>
+
+  
+<!-- First Name -->
+<form >
+    <label>First Name:
+      <input name="First name" autocomplete=" First name">
+    </label>
+    <label> Last name:
+        <input name="Last name" autocomplete=" Last name">
+      </label>
+      </form>
+<li>   </li>
+  <!-- Address -->
+<form>
+    <label>Address:
+      <input name="address" autocomplete="address">
+    </label>
+  </form>
+  <li>
+
+  </li>
+  <form>
+    <label>City:
+      <input name="city" autocomplete="city">
+    </label>
+
+    <label>State:
+        <input name="state" autocomplete="state">
+      </label>
+
+      <label  for="typePhone">Zip code
+         <input type="tel" id="zip"  />
+      </label>
+  </form>
+<p>  </p>
+  <!-- Radio -->
+  <form method="post">
+    <fieldset>
+      <legend>Type :</legend>
+      <label><input type="radio" name="salry"> Salaried </label>
+      <label><input type="radio" name="business"> Business </label> 
+    </fieldset>
+  </form>
+
+  <!-----Checkbox-->
+  <form> 
+  <p>Choose any of the following:</p>
+
+  <div>
+    <input type="checkbox" id="HTML" name="HTML"
+           checked>
+    <label for="scales">HTML</label>
+  </div>
+  <div>
+      <input type="checkbox" id="CSS" name="CSS">
+      <label for="CSS">CSS</label>
+  </div>
+  <div>
+    <input type="checkbox" id="js" name="js">
+    <label for="js">JavaScript</label>
+</div>
+</form>
+
+
+</fieldset>
+<!---------------------------------------------------                           TABLE         ------------------------------>
+
+
+
+
+<h2 style="background-color:powderblue;" >Use the table tag to design given table format</h2> 
+
+ <L> <h3 >           Health chart</h3> </L>
+
+<table style="width: 75%;" >
+    <tr>
+      <td rowspan="2" >State of Health</td>
+      <td colspan="2" >Fasting Value</td>
+      <td rowspan="2" > After Eating</td>
+    </tr>
+    <tr>
+      <th> Minimum </th>
+      <th> Maximum </th>
+    </tr>
+    <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td> Less tahn 140</td>
+      </tr>
+    <tr>
+      <td>Pre-Diabetes</td>
+      
+      <td>101</td>
+      <td>146</td>
+      <td> 140 to 200</td>
+    </tr>
+  <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td> More than 200</td>
+      </tr>
+  </table>
+
+
+
+
+
+
+<h2 style="background-color:powderblue;" > Write HTML input tags snippet to show default values for all Form elements.
+</h2> 
+      <h3> Input Button</h3>
+<input class="favorite styled"
+       type="button"
+       value="Add favorite">
+
+       <h3> Checkbox</h3>
+       <p>Choose any of the following:</p>
+
+<div>
+  <input type="checkbox" id="scales" name="scales"
+         checked>
+  <label for="scales">GUVI</label>
+</div>
+<div>
+    <input type="checkbox" id="horns" name="horns">
+    <label for="horns">ZEN CLASSES</label>
+</div>
+                <h3>Color</h3>
+  <div>
+    <input type="color" id="head" name="head"
+           value="#e66465">
+    <label for="head">Head</label>
+</div>
+<div>
+    <input type="color" id="body" name="body"
+            value="#f6b73c">
+    <label for="body">Body</label>
+</div>
+
+                    <h3> Date</h3>
+<label for="start">Start date:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31">
+
+                     <h3> Datetime-local</h3>
+       <label for="meeting-time">Choose a time for your appointment:</label>
+
+<input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2018-06-12T19:30"
+       min="2018-06-07T00:00" max="2018-06-14T00:00">
+
+                        <h3> email</h3>
+
+       <label for="email">Enter your globex.com email:</label>
+       <input type="submit" value="Send Request">
+
+<input type="email" id="email"
+       pattern=".+@globex\.com" size="30" required>
+
+
+                        <h3> Image </h3>
+
+       <label for="avatar">Choose a profile picture:</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+ 
+       <h3> Month </h3>
+
+       <label for="start">Start month:</label>
+
+<input type="month" id="start" name="start"
+       min="2018-03" value="2018-05">
+       
+            <h3> Number</h3>
+
+       <label for="tentacles">Number of tentacles (10-100):</label>
+
+<input type="number" id="tentacles" name="tentacles"
+       min="10" max="100">
+
+       <h3> Password </h3>
+       <div>
+        <label for="pass">Password (8 characters minimum):</label>
+        <input type="password" id="pass" name="password"
+               minlength="8" required>
+    </div>
+    
+    <input type="submit" value="Sign in">
+
+    <h3> Radio </h3>
+
+    <p>Select a maintenance drone:</p>
+
+<div>
+  <input type="radio" id="huey" name="drone" value="huey"
+         checked>
+  <label for="huey">Huey</label>
+</div>
+<div>
+  <input type="radio" id="dewey" name="drone" value="dewey">
+  <label for="dewey">Dewey</label>
+</div>
+
+
+            <h3> Range </h3>
+<p>Audio settings:</p>
+<div>
+  <input type="range" id="volume" name="volume"
+         min="0" max="11">
+  <label for="volume">Volume</label>
+</div>
+
+            <h3> Reset </h3>
+<form>
+    <div class="controls">
+
+        <label for="id">User ID:</label>
+        <input type="text" id="id" name="id" />
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </div>
+</form>
+
+                <h3> Search </h3>  
+
+<label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+
+<button>Search</button>
+
+
+            <h3> Submit </h3>
+
+<input type="submit" value="Send Request">
+<label for="name">Name (4 to 8 characters):</label>
+<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+
+       
+       <h3> Tel</h3>
+       <label for="appt">Choose a time for your meeting:</label>
+
+<input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
+
+<small>Office hours are 9am to 6pm</small>
+
+                <h3> URL </h3>
+
+<label for="url">Enter an https:// URL:</label>
+
+<input type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="30"
+       required>
+
+
+       <h1> <mark>"HTML & CSS is awesome"</mark>   </h1>
+
+
+
+
+
+</body>
+</html>
